@@ -83,7 +83,7 @@
       <file>vitor_gama_cv-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>papers.bib</file>
+      <file>CV.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

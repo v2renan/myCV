@@ -4,7 +4,7 @@ The top-level auxiliary file: vitor_gama_cv.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: biblatex.bst
 Reallocating 'name_of_file' (item size: 1) to 18 items.
-Reallocating 'name_of_file' (item size: 1) to 7 items.
+Reallocating 'name_of_file' (item size: 1) to 3 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -21,48 +21,48 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: vitor_gama_cv-blx.bib
-Database file #2: papers.bib
+Database file #2: CV.bib
 Biblatex version: 3.19
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
-You've used 1 entry,
+You've used 3 entries,
             6399 wiz_defined-function locations,
-            1203 strings with 8994 characters,
-and the built_in function-call counts, 1562 in all, are:
-= -- 74
-> -- 73
-< -- 1
-+ -- 52
-- -- 30
-* -- 33
-:= -- 375
+            1229 strings with 13833 characters,
+and the built_in function-call counts, 34609 in all, are:
+= -- 2752
+> -- 947
+< -- 118
++ -- 1415
+- -- 666
+* -- 2668
+:= -- 4587
 add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 0
-chr.to.int$ -- 44
-cite$ -- 0
-duplicate$ -- 11
-empty$ -- 105
-format.name$ -- 0
-if$ -- 329
+call.type$ -- 3
+change.case$ -- 20
+chr.to.int$ -- 104
+cite$ -- 4
+duplicate$ -- 2935
+empty$ -- 2725
+format.name$ -- 214
+if$ -- 6485
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 4
 missing$ -- 0
-newline$ -- 20
-num.names$ -- 0
-pop$ -- 47
+newline$ -- 149
+num.names$ -- 82
+pop$ -- 834
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 40
 quote$ -- 0
-skip$ -- 79
+skip$ -- 537
 stack$ -- 0
-substring$ -- 158
-swap$ -- 1
-text.length$ -- 20
-text.prefix$ -- 0
+substring$ -- 5881
+swap$ -- 555
+text.length$ -- 131
+text.prefix$ -- 2
 top$ -- 1
-type$ -- 22
+type$ -- 90
 warning$ -- 0
-while$ -- 65
+while$ -- 512
 width$ -- 0
-write$ -- 20
+write$ -- 147

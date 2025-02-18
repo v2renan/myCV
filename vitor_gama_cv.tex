@@ -16,7 +16,7 @@
 \input{glyphtounicode}
 
 \usepackage[backend=bibtex,defernumbers=true,maxbibnames=10]{biblatex}
-\addbibresource{papers.bib}
+\addbibresource{CV.bib}
 
 
 %---------- FONT OPTIONS ----------
@@ -112,12 +112,21 @@
 
 
 \newcommand{\resumeOrganizationHeading}[4]{
-  \vspace{-2pt}\item
+  \vspace{1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & \textit{\small #2} \\
       \textit{\small#3}
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-20pt}
 }
+
+\newcommand{\resumeConferenceHeading}[6]{
+  \item 
+    \textbf{#1} \textit{(#2)} \\ % Title
+    \textit{#3} \\ % Event
+    \textit{\small #4, #5} \\ % Date and Location
+    \small \textbf{Authors:} #6 % Authors List
+}
+
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
@@ -182,6 +191,20 @@
   \resumeSubHeadingListEnd
 
 
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{Awards \& Achievements}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{AIChE Environmental Division Graduate Paper Award (2024):}{ Awarded 2\textsuperscript{nd} place with the paper titled "Process Operability Analysis of Membrane-Based Direct Air Capture for Low-Purity CO\textsubscript{2} Production".} \\ \vspace{3pt}
+      
+        \textbf{Jack and Marietta Mullenger Fellowship (2024)} \\ \vspace{3pt}
+
+        \textbf{Recruitment Fellowship (2021)} \\ \vspace{3pt}
+      
+    }}
+  \resumeSubHeadingListEnd
 
 %----------- RESEARCH EXPERIENCE -----------
 
@@ -191,10 +214,10 @@
   
     \resumeSubheading
       {West Virginia University}{Morgantown, WV, USA}
-      {Graduate Research Assistant (Ph.D.)}{Aug. 2021 \textbf{--} Currently}
+      {Graduate Research Assistant (Ph.D.)[Advisors – Dr. Fernando V. Lima/Dr. Oishi Sanyal]}{Aug. 2021 \textbf{--} Currently}
         \resumeItemListStart
-            \resumeItem{Currently working under Dr. Fernando V. Lima and Dr. Oishi Sanyal on the analysis of gas separation membranes for Direct Air Capture (DAC) and Carbon Capture (CC), focusing on process system simulation and assessment of operational regions.}
-            \resumeItem{Control, Optimization and Design for Energy and Sustainability (CODES) Research Group leader, supervising the group's activities, as well as organizing the semester schedule, workshops, weekly meetings and relevant announcements.}
+            \resumeItem{Simulation and Operability Analysis of gas separation membranes for Direct Air Capture (DAC) with Carbon Capture Utilization and Storage (CCUS).}
+            
         \resumeItemListEnd
     
     \resumeSubheading
@@ -254,33 +277,21 @@
 
 
 
-%----------- AWARDS & ACHIEVEMENTS -----------
-
-\section{Awards \& Achievements}
-  \vspace{2pt}
-  \resumeSubHeadingListStart
-    \small{\item{
-        \textbf{AIChE Environmental Division Graduate Paper Award (2024):}{ Awarded 2\textsuperscript{nd} place with the paper titled "Process Operability Analysis of Membrane-Based Direct Air Capture for Low-Purity CO\textsubscript{2} Production".} \\ \vspace{3pt}
-      
-        \textbf{Jack and Marietta Mullenger Fellowship:} \\ \vspace{3pt}
-      
-    }}
-  \resumeSubHeadingListEnd
 
 % ---------- RESEARCH PUBLICATIONS -------
 
-%\setlength{\bibhang}{3pt}
-%\defbibenvironment{bibliography}
-%{\list
-%	{}
-%	{\setlength{\leftmargin}{\bibhang}%
-%		\setlength{\itemindent}{-\leftmargin}%
-%		\setlength{\itemsep}{\bibitemsep}%
-%		\setlength{\parsep}{\bibparsep}}}
-%{\endlist}
-%{\item}
-%\nocite{*}
-%\printbibliography[env = bibliography, title= Selected Research Publications - Complete list on my {\href{https://scholar.google.com/citations?user=SNptGbgAAAAJ&hl=en}{\color{blue}Google Scholar.}} ]
+\setlength{\bibhang}{3pt}
+\defbibenvironment{bibliography}
+{\list
+	{}
+	{\setlength{\leftmargin}{\bibhang}%
+		\setlength{\itemindent}{-\leftmargin}%
+		\setlength{\itemsep}{\bibitemsep}%
+		\setlength{\parsep}{\bibparsep}}}
+{\endlist}
+{\item}
+\nocite{*}
+\printbibliography[env = bibliography, title= Selected Research Publications - Complete list on my {\href{https://scholar.google.com/citations?user=6HpSBZUAAAAJ&hl=en}{\color{blue}Google Scholar.}} ]
 
 
 %----------- PROJECTS -----------
@@ -341,15 +352,16 @@
   \vspace{2pt}
   \resumeSubHeadingListStart
     \small{\item{
-        \textbf{Major coursework:}{ Transport Phenomena, Advanced Chemical Engineering Thermodynamics, Chemical Reaction Engineering, Mathematical Methods in Chemical Engineering, Artificial Intelligence Technologies in Mechanical and Aerospace Engineering, Teaching Practicum} \\ \vspace{3pt}
+        \textbf{Major coursework:}{ Transport Phenomena, Advanced Chemical Engineering Thermodynamics, Chemical Reaction Engineering,
+         Mathematical Methods in Chemical Engineering, Teaching Practicum} \\ \vspace{3pt}
         
-        \textbf{Minor coursework:}{ Dynamic Simulations, Membrane Separations}
+        \textbf{Minor coursework:}{ Dynamic Simulations, Membrane Separations, Artifical Intelligence Techniques }
     }}
   \resumeSubHeadingListEnd
   
-%----------------- Clifton Strenghts --------------
+%----------------- Clifton Strengths --------------
 
-\section{CliftonStrenghts}
+\section{CliftonStrengths}
 \vspace{2pt}
 \resumeSubHeadingListStart
   \small{\item{
@@ -370,15 +382,73 @@
 
 %----------- ORGANIZATIONS -----------
 
- \section{Organizations}
+ \section{Professional leadership and Service}
    \resumeSubHeadingListStart
     
-     \resumeOrganizationHeading
-       {Brazilian Student Association (President)}{September 2022 -- September 2024}{President}
-     \resumeOrganizationHeading
-       {Statler College DEI Student Committee}{May 2022 - May 2023}
-    
+     \resumeOrganizationHeading{Brazilian Student Association (President)}{September 2022 -- September 2024}{}{}
+     \resumeOrganizationHeading{Statler College DEI Student Committee}{May 2022 - May 2023}{}{}
+     \resumeOrganizationHeading{CODES Research Group Leader}{Sept. 2022 - Sept 2023}{}{}
    \resumeSubHeadingListEnd
+
+
+%---------------- SELECTED CONFERENCE PRESENTATIONS ----------------
+
+\section*{Selected Conference Presentations}
+\begin{enumerate}
+  \resumeConferenceHeading
+    {Leveraging Process Operability Mapping to Support Experimental Membrane Direct Air Capture (m-DAC) Solutions}
+    {Oral Presentation}
+    {2024 AIChE Annual Meeting}
+    {October 29, 2024}
+    {San Diego, CA, USA}
+    {Vitor Gama, Oishi Sanyal, Fernando V. Lima}
+  \resumeConferenceHeading
+    {Process Operability Analysis of Membrane-Based Direct Air Capture for Low-Purity CO\textsubscript{2} Production}
+    {Poster Presentation}
+    {Membranes: Materials and Processes - Gordon Research Conference}
+    {July 28 - August 2, 2024}
+    {New London, NH, USA}
+    {Vitor Gama, Oishi Sanyal, Fernando V. Lima}
+    \resumeConferenceHeading
+    {Evaluation of Hollow Fiber Membrane Modules for CO\textsubscript{2} Direct Air Capture and Utilization in Low-Purity CO\textsubscript{2} Processes}
+    {Oral Presentation}
+    {2023 AIChE Annual Meeting}
+    {November 7, 2023}
+    {Orlando, FL, USA}
+    {Vitor Gama, Oishi Sanyal, Fernando V. Lima}
+    \resumeConferenceHeading
+    {Feasibility Analysis of a Membrane System for Direct Air Capture of CO\textsubscript{2}}
+    {Oral Presentation}
+    {2022 AIChE Annual Meeting}
+    {November 17, 2022}
+    {Phoenix, AZ, USA}
+    {Vitor Gama, San Dinh, Oishi Sanyal, Fernando V. Lima}
+    \resumeConferenceHeading
+    {Designing a Membrane-based Platform for CO\textsubscript{2} Direct Air Capture Systems Analysis}
+    {Poster Presentation}
+    {Gordon Research Conference on Chemical Separations}
+    {October 2-7, 2022}
+    {Ventura, CA, USA}
+    {Vitor Gama, Oishi Sanyal, Fernando V. Lima}
+
+    
+
+  \resumeConferenceHeading
+    {Another Presentation Title}
+    {Another Conference Name}
+    {Month Day, Year}
+    {Location}
+    {Author A, Author B, Author C}
+\end{enumerate}
+
+
+
+
+
+
+
+
+
 
 
 
