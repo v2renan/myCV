@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.5)  22 FEB 2025 11:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.5)  25 FEB 2025 11:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -549,20 +549,33 @@ Package biblatex Info: ... file 'vitor_gama_cv.bbl' found.
  (vitor_gama_cv.bbl)
 Package biblatex Info: Reference section=0 on input line 142.
 Package biblatex Info: Reference segment=0 on input line 142.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
+(Font)              using `OT1/cmr/bx/n' instead on input line 145.
+
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 147.
+(C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 164.
+(Font)              <7> on input line 148.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 164.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 164.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 164.
+(Font)              <5> on input line 148.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 148.
  (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 149.
+ (C:\Users\vitor\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesomeone.fd
+File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 173.
+(Font)              <10.95> on input line 174.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 174.
+(Font)              <8> on input line 174.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 174.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -571,7 +584,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{C:/Users/vitor/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/vitor/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomeone.enc}]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -582,6 +595,10 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
  ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `vitor_gama_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'vitor_gama_cv.run.xml'.
@@ -589,17 +606,17 @@ Package logreq Info: Writing requests to 'vitor_gama_cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19253 strings out of 476037
- 333452 string characters out of 5779846
+ 19281 strings out of 476037
+ 334324 string characters out of 5779846
  1877763 words of memory out of 5000000
- 39782 multiletter control sequences out of 15000+600000
- 519953 words of font info for 59 fonts, out of 8000000 for 9000
+ 39800 multiletter control sequences out of 15000+600000
+ 520585 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,81p,1912b,1737s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\vitor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\vitor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on vitor_gama_cv.pdf (2 pages, 103590 bytes).
+ <C:\Users\vitor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\vitor\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/vitor/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on vitor_gama_cv.pdf (2 pages, 132345 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
